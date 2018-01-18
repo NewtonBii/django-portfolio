@@ -25,7 +25,7 @@ SECRET_KEY = 'uq4vma$l5@*4xiis53*_da2=hu9llhw=4q2!fwyx_0+#k*2fx='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['newton-portfolio-prac.herokuapp.com']
 
 
 # Application definition
