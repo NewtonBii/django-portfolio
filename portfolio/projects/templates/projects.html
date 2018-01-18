@@ -1,5 +1,5 @@
 {% extends 'base.html' %} {% block content %}
-<div class="row">
+<div class="row" style="font-family: 'Amaranth', sans-serif">
   <h1 class='title text-center'>{{title}}</h1>
   <div class="row"> {% for project in projects %}
     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -8,22 +8,6 @@
             data-holder-rendered="true">
         </a>
     </div>
-    <!-- <div class="container">
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <div class="cards">
-      		<a class="card" href="#">
-      			<span class="card-header" style="background-image: url({{project.project_image.url}});">
-      				<span class="card-title">
-      					<h3>{{project.title}}</h3>
-      				</span>
-      			</span>
-      			<span class="card-summary">
-      				{{project.description}}
-      			</span>
-      		</a>
-      	</div>
-      </div>
-    </div> -->
     {% endfor %}
   </div>
 </div>
